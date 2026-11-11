@@ -1,0 +1,16 @@
+name: Question
+description: Usage, installation, anything else
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: Any language is fine.
+  - type: textarea
+    attributes:
+      label: Question
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: App version
+      description: If you know it (Settings → About)

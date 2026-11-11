@@ -1,0 +1,67 @@
+name: Bug report
+description: Something looks wrong, doesn't work, or crashes
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is **public**. Hide summoner names etc. in screenshots if needed.
+        You don't need to post the data folder path (it contains your Windows user name).
+        Draft Stage reads champion select from the League client of a **spectator** in a custom game. Any language is fine.
+  - type: checkboxes
+    attributes:
+      label: Before submitting
+      options:
+        - label: It happens on the latest version (Settings → About → Check for updates. If updating fails, say so below)
+          required: true
+        - label: There is no existing report of this ([search issues](https://github.com/penguinwokrs/draft-stage-releases/issues?q=is%3Aissue))
+          required: true
+  - type: input
+    attributes:
+      label: App version
+      description: Settings → About → App version
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Output
+      options:
+        - Overlay window
+        - OBS browser source
+        - Settings window / tray / update
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: When it happened
+      options:
+        - During champion select
+        - After all picks locked / while waiting for the game
+        - After the game started
+        - Outside champion select (lobby, app start)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What happened
+      description: Which part, what it showed, and what it should have shown
+      placeholder: e.g. The red side's second ban shows the wrong champion. The client shows Ahri, the overlay shows Akali
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Draft settings
+      description: Skin, rule (standard / fearless / protect), BO, and whether anyone left or traded champions
+      placeholder: e.g. Frame / fearless / BO5 game 3 / two players traded after locking
+  - type: dropdown
+    attributes:
+      label: How often
+      options:
+        - Every time
+        - Sometimes
+        - Only once
+  - type: textarea
+    attributes:
+      label: Screenshots / video
+      description: Ideally showing both the overlay and the client's champion select. Drag and drop to attach

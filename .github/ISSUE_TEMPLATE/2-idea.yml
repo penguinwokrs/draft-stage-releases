@@ -1,0 +1,31 @@
+name: Feature request
+description: Something you'd like changed or added
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Any language is fine.
+  - type: dropdown
+    attributes:
+      label: Area
+      options:
+        - Overlay (skins, picks, bans, timer, ...)
+        - Rules (fearless, protect, series score, ...)
+        - Settings window / tray
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Problem / what you want to do
+      description: Before the idea itself, tell us why you want it (e.g. what you want to show on stream)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Idea
+      description: How it should look or work. Leave empty if you're not sure
+  - type: textarea
+    attributes:
+      label: References
+      description: Screenshots of tournament broadcasts, sketches, etc.
