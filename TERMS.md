@@ -39,6 +39,7 @@ Draft Stage（以下「本ソフト」）をダウンロード・インストー
 
 ## 7. 権利
 - 本ソフトの著作権は作者（penguinwokrs）にあります
+- 本ソフトが使っているオープンソースソフトウェアのライセンスは、アプリの設定画面の「アプリ情報」→「オープンソースのライセンス」で確認できます。同じ内容のファイル（THIRD-PARTY-NOTICES.html）を、インストーラと [各リリース](https://github.com/penguinwokrs/draft-stage-releases/releases) にも添付しています
 - 表示する画像・名称などのゲームのデータは Riot Games の権利物です。本ソフトにはこれらを同梱せず、利用者の PC が取得します
 - 同梱しているフォント（Antonio、Barlow Condensed、IBM Plex Mono）は SIL Open Font License で提供されています
 
@@ -97,6 +98,7 @@ We'd love to hear where the Software was used. Let us know in [Issues](https://g
 
 ## 7. Rights
 - The copyright in the Software belongs to its author (penguinwokrs)
+- Licenses for the open-source software used by the Software can be viewed in the app (Settings → About → Open-source licenses). The same file (THIRD-PARTY-NOTICES.html) is included in the installer and attached to [each release](https://github.com/penguinwokrs/draft-stage-releases/releases)
 - Game images, names, and other game data belong to Riot Games. They are not bundled with the Software; your PC downloads them
 - The bundled fonts (Antonio, Barlow Condensed, IBM Plex Mono) are licensed under the SIL Open Font License
 
