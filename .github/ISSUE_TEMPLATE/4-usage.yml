@@ -1,0 +1,22 @@
+name: Usage report / 使用報告
+description: Tell us about a stream or tournament that used Draft Stage (optional, thank you!)
+body:
+  - type: markdown
+    attributes:
+      value: Any language is fine. This will be public. / 何語でも大丈夫です。内容は公開されます。
+  - type: input
+    attributes:
+      label: Event or channel name / 大会・配信の名前
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Link / リンク
+      description: Stream, VOD or tournament page
+  - type: input
+    attributes:
+      label: Date / 日付
+  - type: textarea
+    attributes:
+      label: Comments / ひとこと
+      description: Anything that worked well or was hard to use

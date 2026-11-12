@@ -23,6 +23,12 @@ League of Legends のカスタムゲームの BAN/PICK を、大会配信風の�
    - **オーバーレイ**: 画面の上に重ねる（チャンピオン選択の間だけ出る）
    - **OBS**: ブラウザソースで `http://127.0.0.1:7781/` を開く（幅 1920、高さ 1080）
 
+## 利用条件 / Terms of use
+
+[利用条件](TERMS.md)（[English](TERMS.md#english)）の範囲で、個人・団体を問わず無料で使えます。配信・大会（参加費・賞金のある大会を含む）での利用に個別の許諾は要りません。再配布・改変・販売はできません。収益のある大会・配信で使うときは、概要欄・大会のページ・エンドクレジットのどれかに次のクレジットを入れてください。
+
+    Draft: Draft Stage — https://github.com/penguinwokrs/draft-stage-releases
+
 ---
 
-This project was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.
+Draft Stage was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.

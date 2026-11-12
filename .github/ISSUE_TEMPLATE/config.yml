@@ -3,3 +3,6 @@ contact_links:
   - name: Release notes
     url: https://github.com/penguinwokrs/draft-stage-releases/releases
     about: What changed or was fixed in each version
+  - name: Terms of use / 利用条件
+    url: https://github.com/penguinwokrs/draft-stage-releases/blob/main/TERMS.md
+    about: Do I need permission? Credit, redistribution, paid tournaments / 許諾・クレジット表記・有料の大会について
