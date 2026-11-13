@@ -23,6 +23,12 @@ League of Legends のカスタムゲームの BAN/PICK を、大会配信風の�
    - **オーバーレイ**: 画面の上に重ねる（チャンピオン選択の間だけ出る）
    - **OBS**: ブラウザソースで `http://127.0.0.1:7781/` を開く（幅 1920、高さ 1080）
 
+## 不具合・要望・質問 / Bug reports, requests, questions
+
+[Issues](https://github.com/penguinwokrs/draft-stage-releases/issues/new/choose) から、テンプレートを選んで送ってください。何語で書いても大丈夫です。
+
+Please open an [issue](https://github.com/penguinwokrs/draft-stage-releases/issues/new/choose) and pick a template. Any language is fine.
+
 ## 利用条件 / Terms of use
 
 [利用条件](TERMS.md)（[English](TERMS.md#english)）の範囲で、個人・団体を問わず無料で使えます。配信・大会（参加費・賞金のある大会を含む）での利用に個別の許諾は要りません。再配布・改変・販売はできません。収益のある大会・配信で使うときは、概要欄・大会のページ・エンドクレジットのどれかに次のクレジットを入れてください（配信・動画・大会のページのどれも無い大会では、省略していただいてかまいません）。
