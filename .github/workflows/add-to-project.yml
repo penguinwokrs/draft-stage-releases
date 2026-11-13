@@ -1,0 +1,16 @@
+# Adds new issues to https://github.com/users/penguinwokrs/projects/2
+# ADD_TO_PROJECT_PAT: classic PAT, project scope only, expires 2027-11-14.
+# Runs no issue content, so it is safe for issues opened by anyone.
+name: Add to project
+on:
+  issues:
+    types: [opened, reopened, transferred]
+permissions: {}
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v2.0.1
+        with:
+          project-url: https://github.com/users/penguinwokrs/projects/2
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
