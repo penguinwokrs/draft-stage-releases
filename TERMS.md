@@ -10,7 +10,7 @@ Draft Stage（以下「本ソフト」）をダウンロード・インストー
 - 本ソフトは、League of Legends のカスタムゲームに観戦者として入った PC で、チャンピオン選択（BAN/PICK）を表示するためのものです
 
 ## 2. クレジット表記
-参加費・賞金・有料配信・スポンサーなどで収益のある大会・配信で本ソフトを使う場合は、配信の概要欄・大会のページ・エンドクレジットのいずれかに、次の表記を入れてください。収益のない場合も、入れていただけると開発の励みになります。
+参加費・賞金・有料配信・スポンサーなどで収益のある大会・配信で本ソフトを使う場合は、配信の概要欄・大会のページ・エンドクレジットのいずれかに、次の表記を入れてください。配信・動画・大会のページのどれも無い大会（参加者だけで行う大会など）では、表記を省略していただいてかまいません。収益のない場合も、入れていただけると開発の励みになります。
 
     Draft: Draft Stage — https://github.com/penguinwokrs/draft-stage-releases
 
@@ -69,7 +69,7 @@ By downloading, installing, or using Draft Stage ("the Software"), you agree to 
 - The Software displays champion select (bans and picks) on a PC that has joined a League of Legends custom game as a spectator
 
 ## 2. Credit
-If you use the Software in a tournament or broadcast that generates revenue (entry fees, prize pools, paid broadcasts, sponsorships, etc.), please include the following credit in the stream description, the tournament page, or the end credits. For non-revenue use, a credit is appreciated but not required.
+If you use the Software in a tournament or broadcast that generates revenue (entry fees, prize pools, paid broadcasts, sponsorships, etc.), please include the following credit in the stream description, the tournament page, or the end credits. If your tournament has no broadcast, video, or tournament page (for example, one held among participants only), you're welcome to leave the credit out. For non-revenue use, a credit is appreciated but not required.
 
     Draft: Draft Stage — https://github.com/penguinwokrs/draft-stage-releases
 
