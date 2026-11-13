@@ -1,5 +1,6 @@
 name: Usage report / 使用報告
 description: Tell us about a stream or tournament that used Draft Stage (optional, thank you!)
+labels: [usage]
 body:
   - type: markdown
     attributes:
