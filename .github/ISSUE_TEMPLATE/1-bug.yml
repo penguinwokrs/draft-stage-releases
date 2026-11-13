@@ -25,11 +25,13 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: Output
+      label: Output you checked
+      description: Settings → 表示先 (Output). For display problems, checking both helps narrow it down
       options:
-        - Overlay window
-        - OBS browser source
-        - Settings window / tray / update
+        - Overlay window only
+        - OBS browser source only
+        - Both overlay window and OBS browser source
+        - Not a display problem (settings window / tray / update)
     validations:
       required: true
   - type: dropdown
@@ -54,6 +56,13 @@ body:
       label: Draft settings
       description: Skin, rule (standard / fearless / protect), BO, and whether anyone left or traded champions
       placeholder: e.g. Frame / fearless / BO5 game 3 / two players traded after locking
+  - type: input
+    attributes:
+      label: Resolution
+      description: Resolution of the monitor showing the overlay window (primary monitor), or the OBS browser source size. Write "-" if it's not a display problem
+      placeholder: 1920x1080
+    validations:
+      required: true
   - type: dropdown
     attributes:
       label: How often
