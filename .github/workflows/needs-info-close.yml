@@ -1,0 +1,27 @@
+# Closes issues labelled `needs-info` that get no update for 14 days.
+# Usage: post the question first, then add `needs-info` (commenting after
+# labelling counts as an update and removes the label).
+# Any later comment or edit removes the label and stops the countdown.
+name: Close needs-info issues
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+permissions:
+  actions: write # the action keeps its state in the Actions cache
+  issues: write
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@4391f3da665fdf50b6810c1a66712fb9ba21aa93 # v11.0.0
+        with:
+          stale-issue-label: needs-info
+          only-issue-labels: needs-info
+          days-before-stale: -1
+          days-before-issue-close: 14
+          days-before-pr-close: -1
+          close-issue-reason: not_planned
+          close-issue-message: >
+            Closing because we haven't heard back in 14 days.
+            If you can share the requested details, comment here and we'll reopen it.
