@@ -1,6 +1,10 @@
 # Draft Stage（配布用）
 
-League of Legends のカスタムゲームの BAN/PICK を、大会配信風の画面で表示する Windows アプリの配布場所です。カスタムゲームに観戦者として入った PC で使います。ソースコードはここにはありません。
+League of Legends のカスタムゲームの BAN/PICK を、大会配信風の画面で表示する、無料の Windows アプリの配布場所です。カスタムゲームに観戦者として入った PC で使います。ソースコードはここにはありません。
+
+紹介・使い方・よくある質問: https://lolhud.penguinwokrs.app/draft/
+
+Draft Stage is a free Windows app that shows League of Legends custom-game ban/pick on a tournament-broadcast-style screen. Website: https://lolhud.penguinwokrs.app/en/draft/
 
 > **アルファ版**です。機能や見た目は今後変わります。各版の内容は [Releases](https://github.com/penguinwokrs/draft-stage-releases/releases) のノートを見てください。
 
